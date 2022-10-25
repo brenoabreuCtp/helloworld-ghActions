@@ -32,4 +32,4 @@ jobs:
       run: nuget restore helloworld.sln
       
     - name: Build the Solution
-      run: dotnet build helloworld.sln
+      run: dotnet build
